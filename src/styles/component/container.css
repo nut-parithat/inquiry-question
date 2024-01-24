@@ -1,0 +1,17 @@
+.container {
+  padding: 24px;
+  /* height: 100vh; */
+  width: 100%;
+  overflow: auto;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(242, 237, 229);
+}
+
+.content {
+  max-width: 600px;
+  width: 100%;
+  /* height: 500px; */
+  padding: 24px;
+}

@@ -1,0 +1,10 @@
+.ant-card .ant-card-head-title {
+  overflow: auto;
+  white-space: unset;
+  text-overflow: unset;
+  padding: 8px;
+}
+
+.ant-card-bordered {
+  border: 1px solid #d8cece;
+}
