@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import Container from "@/component/Container";
-import CardQuestion from "@/component/CardQuestion";
+import Container from "../component/Container";
+import CardQuestion from "../component/CardQuestion";
 import { question } from '../store/question'
-import FlatList from '@/component/FlatList';
-import { QuestionDto } from '@/model/question.dto';
+import FlatList from '../component/FlatList';
+import { QuestionDto } from '../model/question.dto';
 
 export default function Home() {
   const [listQuestion, setListQuestion] = useState<QuestionDto[]>()
